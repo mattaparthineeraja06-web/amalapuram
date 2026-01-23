@@ -63,7 +63,7 @@ body {
     background-position: center;    /* center the image */
     background-attachment: fixed;   /* keeps the image fixed when scrolling */
     background-size: cover;
-    color: white;
+    color: black;
     height: 300px;
 }
 /* Intro section */
@@ -302,5 +302,6 @@ body {
     margin: 0 10px;
   }
 }
+
 
 
