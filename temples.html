@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amalapuram Temples Photo Collection</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #7b2ff7, #f107a3);
+            color: #fff;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .card .info {
+            padding: 15px;
+        }
+
+        .card .info h3 {
+            font-size: 1.1rem;
+            margin-bottom: 6px;
+        }
+
+        .card .info p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            text-align: center;
+            background: #222;
+            color: #ccc;
+            font-size: 0.85rem;
+        }
+
+        footer span {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Amalapuram Temple Photo Gallery</h1>
+    <p>A collection of famous and spiritual temples from Amalapuram</p>
+</header>
+
+<div class="container">
+    <div class="gallery">
+
+        <!-- Temple Card 1 -->
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlLWw9ccuengqSZbuYiPmQbfokvi7Qf2nzYraLNwG4xg&s&ec=121507526" alt="Ainavilli Siddhi Vinayaka Temple">
+            <div class="info">
+                <h3>Ainavilli Siddhi Vinayaka Temple</h3>
+                <p>One of the most famous Ganesh temples near Amalapuram.</p>
+            </div>
+        </div>
+
+        <!-- Temple Card 2 -->
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoWkYht8HUc9JJjEoMXr5DnP5unb51zgg9XHR2t0o2HVjCo_hH&s&ec=121507526" alt="Antarvedi Veera Raghava Temple">
+            <div class="info">
+                <h3>Antarvedi Veera Raghava Temple</h3>
+                <p>A sacred temple located at the confluence of river and sea.</p>
+            </div>
+        </div>
+
+        <!-- Temple Card 3 -->
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx5Og-fwyvYMimm_39QmVzCnpXTSqPLjnHs2X9BOTy8g&s&ec=121507526" alt="Appanapalli Balaji Temple">
+            <div class="info">
+                <h3>Appanapalli Balaji Temple</h3>
+                <p>A peaceful temple dedicated to Lord Venkateswara.</p>
+            </div>
+        </div>
+
+        <!-- Temple Card 4 -->
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUKlQBj6K3rkUcCSoQt3DtW-B1F-UywWsT1LHg4-D-8A&s&ec=121507526" alt="Shiva Temple Amalapuram">
+            <div class="info">
+                <h3>Shiva Temple, Amalapuram</h3>
+                <p>A serene temple known for its spiritual atmosphere.</p>
+            </div>
+        </div>
+
+        <!-- Temple Card 5 -->
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcUr-qoDnLSKJ8Eq3W4TSz4Fh17JUtRsEnGDUvdTXmxQ&s&ec=121507526" alt="Kesava Swamy Temple">
+            <div class="info">
+                <h3>Kesava Swamy Temple</h3>
+                <p>A historic temple showcasing traditional architecture.</p>
+            </div>
+        </div>
+
+        <!-- Temple Card 6 -->
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3jdZ-Ojbqw2lr7TxuV1Ku7AXiMVPm3tcSH3HWlKk1RA&s&ec=121507526" alt="Local Temple Amalapuram">
+            <div class="info">
+                <h3>Local Heritage Temple</h3>
+                <p>A glimpse of the rich temple culture of Amalapuram.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 <span>Amalapuram Temple Gallery</span> | Designed with HTML & CSS</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konaseema Festivals</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to right, #ff9800, #ff5722);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.4rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .festival-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+        }
+
+        .festival-card {
+            background: #ffffff;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .festival-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 14px 30px rgba(0,0,0,0.12);
+        }
+
+        .festival-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .festival-content {
+            padding: 18px;
+        }
+
+        .festival-content h3 {
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+            color: #e65100;
+        }
+
+        .festival-content p {
+            font-size: 0.95rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        footer {
+            margin-top: 60px;
+            background-color: #222;
+            color: #ccc;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+
+        footer span {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Konaseema Festivals</h1>
+    <p>Celebrating the vibrant culture and traditions of Konaseema</p>
+</header>
+
+<div class="container">
+    <div class="festival-grid">
+
+        <div class="festival-card">
+            <img src="https://preview.redd.it/jagannathota-prabhala-theertham-celebrated-in-konaseema-v0-p2njtwidggdg1.png?width=540&format=png&auto=webp&s=20aa9115fd2d8795cc51a8b3ad0aece600de4291" alt="Sankranti Festival">
+            <div class="festival-content">
+                <h3>Sankranti</h3>
+                <p>The most celebrated festival in Konaseema, marking the harvest season with joy, rangoli, and traditional foods.</p>
+            </div>
+        </div>
+
+        <div class="festival-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqAeQsm06pekx5VO1hlVup8z_zKN0z4ma-sA&s" alt="Kanuma Festival">
+            <div class="festival-content">
+                <h3>Kanuma</h3>
+                <p>Celebrated after Sankranti, Kanuma honors cattle and showcases rural traditions and community feasts.</p>
+            </div>
+        </div>
+
+        <div class="festival-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdiiDrHO1Q8G9LnX8axwTpQp6C6ZWAM52E9g&s" alt="Maha Shivaratri">
+            <div class="festival-content">
+                <h3>Maha Shivaratri</h3>
+                <p>A sacred night dedicated to Lord Shiva, observed with fasting, prayers, and temple celebrations.</p>
+            </div>
+        </div>
+
+        <div class="festival-card">
+            <img src="https://c.ndtvimg.com/2024-09/17mgh5d_ganesh-chaturthi-ani_625x300_07_September_24.jpeg" alt="Vinayaka Chavithi">
+            <div class="festival-content">
+                <h3>Vinayaka Chavithi</h3>
+                <p>Devotees worship Lord Ganesha with devotion, colorful idols, and cultural programs across Konaseema.</p>
+            </div>
+        </div>
+
+        <div class="festival-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTqi8botUZDDm0M5jTCFoO8SExKSJRvI82yA&s" alt="Dasara Festival">
+            <div class="festival-content">
+                <h3>Dasara</h3>
+                <p>A grand celebration symbolizing the victory of good over evil, with temple rituals and festivities.</p>
+            </div>
+        </div>
+
+        <div class="festival-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiN07vuHOvbprAgpvuPOGwcHwi4kKgnbJQxg&s" alt="Deepavali">
+            <div class="festival-content">
+                <h3>Deepavali</h3>
+                <p>The festival of lights brings happiness, lamps, sweets, and fireworks to every home in Konaseema.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 <span>Konaseema Culture</span> | Designed using HTML & CSS</p>
+</footer>
+
+</body>
+</html>

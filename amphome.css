@@ -1,0 +1,305 @@
+/* General styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+   background-color: white;
+}
+
+/* Logo styling */
+.logo {
+    text-align: center;
+    margin: 20px 0;
+    
+}
+
+.logo img {
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+/* Header styling */
+.header {
+    background-color: #30c26b;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Site name styling */
+.header .name h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Navbar styling */
+.navbar {
+    margin-top: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #05ba32;
+    border-radius: 5px;
+}
+
+ .intro{
+    background-image: url('images/coconut1.webp'); /* path to your image */
+    background-repeat: no-repeat;   /* prevents tiling */
+    background-position: center;    /* center the image */
+    background-attachment: fixed;   /* keeps the image fixed when scrolling */
+    background-size: cover;
+    color: white;
+    height: 300px;
+}
+/* Intro section */
+.intro {
+    text-align: center;
+    padding: 40px 20px;
+    
+}
+
+.intro h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Description sections */
+.description, .description2 {
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+    gap: 20px;
+    background-color: #65ac5d;
+    margin: 20px 0;
+    height: 150px;
+    width: 700px;
+}
+.description2{
+    margin-left: 500px;
+}
+.description img, .description2 img {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .description, .description2 {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .description img, .description2 img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+
+/* Section styling */
+.famous {
+    padding: 50px 20px;
+    background-color: #f5f7fa;
+}
+
+/* Grid layout for cards */
+.famous-card,
+.famous1-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+/* Individual card design */
+.icon {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.icon:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Icon styling */
+.icon i {
+    font-size: 40px;
+    color: #1e88e5;
+    margin-bottom: 15px;
+}
+
+/* Heading styling */
+.icon h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #222;
+    text-transform: uppercase;
+}
+
+/* Paragraph styling */
+.icon p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Responsive design */
+@media (max-width: 900px) {
+    .famous-card,
+    .famous1-card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .famous-card,
+    .famous1-card {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Footer main */
+.footer {
+  background-color: #11c060;
+  color: #ffffff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Footer boxes */
+.footer-box {
+  flex: 1 1 250px;
+}
+
+/* Logo */
+.footer-logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+/* Titles */
+.footer-title {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #f4d03f;
+}
+
+.footer-box h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  border-bottom: 2px solid #f4d03f;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer-box h4 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+/* Address text */
+.footer-box p,
+.footer-box h2 {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 5px 0;
+}
+
+.footer-box h2 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* Icons */
+.footer-box i {
+  margin-right: 8px;
+  color: #f4d03f;
+}
+
+/* Social icons */
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #f4d03f;
+}
+
+/* Footer links */
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-links li:hover {
+  color: #f4d03f;
+  transform: translateX(5px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+  }
+}
+

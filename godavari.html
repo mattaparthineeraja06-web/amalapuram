@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Godavari River</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #eef3f7;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to right, #1e88e5, #43a047);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .photo-card {
+            background: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .photo-card:hover {
+            transform: translateY(-6px);
+        }
+
+        .photo-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .photo-card .caption {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .photo-card .caption h3 {
+            margin-bottom: 6px;
+            color: #1e88e5;
+        }
+
+        .photo-card .caption p {
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        footer {
+            margin-top: 50px;
+            background-color: #222;
+            color: #ccc;
+            text-align: center;
+            padding: 18px;
+            font-size: 0.9rem;
+        }
+
+        footer span {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>River Godavari</h1>
+    <p>The lifeline of peninsular India</p>
+</header>
+
+<div class="container">
+    <div class="gallery">
+
+        <div class="photo-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv2P_hRR_WZ9qmiLyTMOBmSrEMW-2Z3ju9_d_w8bs_Ug&s&ec=121507526" alt="Godavari Sunrise">
+            <div class="caption">
+                <h3>Godavari Sunrise</h3>
+                <p>A peaceful sunrise view along the banks of the Godavari.</p>
+            </div>
+        </div>
+
+        <div class="photo-card">
+            <img src="data:image/jpeg;base64,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" alt="Boat Ride on Godavari">
+            <div class="caption">
+                <h3>Boat Ride</h3>
+                <p>Traditional boats sailing on the calm waters of the river.</p>
+            </div>
+        </div>
+
+        <div class="photo-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnKLAtvQ1enIaMlSdTt6Bf02hlc4VjXUKBd6igco3T1w&s&ec=121507526" alt="Godavari Bridge">
+            <div class="caption">
+                <h3>Godavari Bridge</h3>
+                <p>The majestic bridge connecting culture and development.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+</body>
+</html>
